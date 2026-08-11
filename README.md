@@ -1,4 +1,6 @@
+# Final Project: Parrot Bay Motel And Hammock Shop
 
-# <a href="http://www.collegeburps.com/" target="_blank" rel='noopener noreferrer'>CollegeBurps</a>
+## This is my final project for CNMS-160
 
-# BarkMulcher.github.io
+### I used collegeburps.com because I already owned the domain and have had it up and running on github for years, and it wasn't currently occupied by anything useful.
+
