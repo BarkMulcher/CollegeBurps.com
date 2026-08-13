@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserve</title>
+    <link rel="stylesheet" href="./assets/styles/styles.css">
+    <link rel="stylesheet" href="./assets/styles/normalize.css">
+</head>
+<body>
+    <header>
+        <h1>
+            Parrot Bay Motel and Hammock Shop
+        </h1>
+        <h3>
+            Isla de Tuerte, Caribbean Sea, Nicaragua
+        </h3>
+        <nav>
+            <a href="index.html">HOME</a>
+            <a href="about.html">ABOUT US</a>
+            <a href="grounds.html">GROUNDS</a>
+            <a href="rooms.html">ROOMS</a>
+            <a href="contact_reserve.html">CONTACT / RESERVE</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Contact Us </h2>
+        <h3>Fill out this form and we will contact you!</h3>
+        <form action="mailto:lucas.haskell@parrotbaymotel.bust" method="post">
+            Your Name: <input type="text" name="name">
+            <br>
+            Your Email: <input type="text" name="email">
+            <br>
+            Message: <textarea name="message"></textarea>
+            <br>
+            <input type="submit" value="Send">
+        </form>
+
+        </form>
+
+        <h2>Or, reserve here:</h2>
+        <form action="#" method="get">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="room">Room Type</label>
+            <select id="room" name="room">
+                <option>Room #1</option>
+                <option>Room #2</option>
+                <option>Room #3</option>
+                <option>Room #4</option>
+                <option>Room #5</option>
+                <option>Room #6</option>
+                <option>Room #7</option>
+            </select>
+
+            <label for="arrival">Arrival Date</label>
+            <input type="date" id="arrival" name="arrival">
+
+            <label for="departure">Departure Date</label>
+            <input type="date" id="departure" name="departure">
+
+            <label for="message">Questions or Requests</label>
+            <textarea id="message" name="message" rows="5"></textarea>
+
+            <button type="submit">Request Reservation</button>
+        </form>
+    </main>
+
+    
+    <footer>
+        <p>2026 Parrot Bay Motel and Hammock Shop</p>
+    </footer>
+</body>
+</html>
